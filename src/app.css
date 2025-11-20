@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* Font scaling system */
+:root {
+  --font-scale: 1;
+}
+
+body {
+  font-family: "Inter", "Noto Sans Devanagari", sans-serif;
+}
+
+@theme {
+  --color-accent: #155dfc;
+  --color-white: #ffffff;
+  --color-dark-gray: #1d293d;
+  --color-gray-30: #d9dfe4;
+  --color-gray-10: #f3f4f6;
+  --color-overlay: rgba(0, 0, 0, 0.5);
+  --color-primary-hover: #f3f4f6;
+  --color-table-hover: #e5edff;
+  --color-dark-gray: #424242;
+  --color-danger: #e7000b;
+  --color-green: oklch(62.7% 0.194 149.214);
+
+  --breakpoint-450px: 450px;
+  --breakpoint-900px: 900px;
+  --breakpoint-1000px: 1000px;
+
+  /* --font-size-xs: calc(0.75rem * var(--font-scale, 1));
+  --font-size-sm: calc(0.875rem * var(--font-scale, 1));
+  --font-size-base: calc(1rem * var(--font-scale, 1));
+  --font-size-lg: calc(1.125rem * var(--font-scale, 1));
+  --font-size-xl: calc(1.25rem * var(--font-scale, 1));
+  --font-size-2xl: calc(1.5rem * var(--font-scale, 1));
+  --font-size-3xl: calc(1.875rem * var(--font-scale, 1));
+  --font-size-4xl: calc(2.25rem * var(--font-scale, 1));
+
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.25rem;
+  --line-height-base: 1.5rem;
+  --line-height-lg: 1.75rem;
+  --line-height-xl: 1.75rem;
+  --line-height-2xl: 2rem;
+  --line-height-3xl: 2.25rem;
+  --line-height-4xl: 2.5rem; */
+}
+
+.heading-L {
+  @apply text-xl font-bold text-gray-900;
+}
+.basic-btn {
+  @apply px-6 py-2 rounded-[4px] font-medium capitalize sm:text-sm text-xs text-nowrap text-center flex items-center justify-center gap-1 disabled:bg-gray-500 disabled:cursor-not-allowed hover:opacity-90;
+}
+.horizontal-line {
+  @apply border-t border-gray-200;
+}
+
+/* ---- CSS for datatable header hover ---- */
+.sort-icon {
+  color: rgba(255, 255, 255, 0);
+}
+.table-header:hover button .sort-icon {
+  color: rgb(156, 163, 175);
+}
+
+h1 {
+  font-size: text-lg;
+}
