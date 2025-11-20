@@ -348,8 +348,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Support
 
-For support, please open an issue in the GitHub repository or contact the development team.
+For support, please open an issue in the GitHub repository or contact the development team
+
 
 ---
 
-**Made with ❤️ for ed-reach.in**
+**Made with ❤️ for edu-reach.in**
